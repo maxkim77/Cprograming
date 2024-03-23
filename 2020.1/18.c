@@ -1,3 +1,4 @@
+//18.c
 #include <stdio.h>
 
 int main() {
@@ -13,3 +14,4 @@ int main() {
     printf("%d", c);
     return 0;
 }
+```

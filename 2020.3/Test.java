@@ -6,7 +6,8 @@ public class Test {
             i++;
             if(i%2==1)
             continue;
-        sum += i;
+            // 홀수이면 continue로 아래 코드를 실행하지 않고 다음 반복으로 넘어감
+        sum += i; // 짝수일 때만 더함
         }
     System.out.println(sum);                                                                                                               
     }
