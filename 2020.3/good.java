@@ -25,7 +25,7 @@ class Car extends Vehicle {
     }
 }
 
-public class Good {
+public class good {
     public static void main(String[] args) {
         Vehicle obj = new Car("Spark");
         System.out.print(obj.getName());
