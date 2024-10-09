@@ -12,6 +12,12 @@ int main(void){
     printf("첫번째 값  %d\n", one);
     printf("첫번째 값  %d\n", two);
     printf("첫번째 값  %d\n", three);
-        return 0;
+    
+    char c = 'A';
+    printf("%c\n",c);
+    
+
+
+    return 0;
 
 }
