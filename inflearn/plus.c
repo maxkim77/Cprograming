@@ -5,5 +5,15 @@ int main(void){
     printf("b는 %d\n", ++b);
     printf("b는 %d\n", b++);
     printf("b는 %d\n", b);
+
+    int i = 1;
+    printf("hello %d\n",i++);
+    printf("hello %d\n",i++);
+    printf("hello %d\n",i++);
+    printf("hello %d\n",i++);
+    printf("hello %d\n",i++);
+    printf("hello %d\n",i++);
+    printf("hello %d\n",i++);
+
     return 0;
 }
