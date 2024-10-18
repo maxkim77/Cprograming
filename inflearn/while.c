@@ -5,5 +5,10 @@ int main(void){
     printf("hello world\n");
     i++;
   }
+
+  int j = 1;
+  do{
+    printf("hello %d\n",j++);
+  }while(j<=10);
   return 0;
 }
