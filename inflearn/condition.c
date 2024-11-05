@@ -16,12 +16,22 @@ int main(void){
     //     printf("학생이 아닌가봐요.\n");
     // }
 
-    for(int i = 1;i<=30;i++){
-        if(i>=6){
-            printf("나머지학생은 집에 가세요\n");
-            break;
+    // for(int i = 1;i<=30;i++){
+    //     if(i>=6){
+    //         printf("나머지학생은 집에 가세요\n");
+    //         break;
+    //     }
+    //     printf("%d번 학생은 조별 발표준비를 하세요\n",i);
+    // }
+    for(int i=1;i<=30;i++){
+        if(i>=6 && i<=10){
+            if(i ==7){
+                printf("%d 번 학생은 결석입니다. \n",i);
+                continue;
+            }
+            printf("%d번 학생은 조별 과제를 진행하세요. \n",i);
         }
-        printf("%d번 학생은 조별 발표준비를 하세요\n",i);
     }
+
     return 0;
 }
