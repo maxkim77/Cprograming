@@ -23,14 +23,23 @@ int main(void){
     //     }
     //     printf("%d번 학생은 조별 발표준비를 하세요\n",i);
     // }
-    for(int i=1;i<=30;i++){
-        if(i>=6 && i<=10){
-            if(i ==7){
-                printf("%d 번 학생은 결석입니다. \n",i);
-                continue;
-            }
-            printf("%d번 학생은 조별 과제를 진행하세요. \n",i);
-        }
+    // for(int i=1;i<=30;i++){
+    //     if(i>=6 && i<=10){
+    //         if(i ==7){
+    //             printf("%d 번 학생은 결석입니다. \n",i);
+    //             continue;
+    //         }
+    //         printf("%d번 학생은 조별 과제를 진행하세요. \n",i);
+    //     }
+    // }
+    int a = 10;
+    int b = 11;
+    int c = 12;
+    int d = 12;
+    if(a==b || c==d){
+        printf("a와 b는 같고, c와d도 같습니다.");
+    }else{
+        printf("값이 서로다르네요\n");
     }
 
     return 0;
