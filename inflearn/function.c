@@ -1,15 +1,28 @@
 #include <stdio.h>
+
+void p(int num);
 int main(void){
 
     int num = 2;
-    printf("num 은 %d 입니다 \n");
+    p(num);
 
     num = num+3;
-    printf("num은 %d입니다. \n");
+    p(num);
 
     num -=1;
-    printf("num은 %d입니다. \n");
+    p(num);
 
     num *=3;
-    printf("num은 %d입니다. \n");
+    p(num);
+
+    num/=6;
+    p(num);
+
+    return 0;
+
+}
+
+void p(int num)
+{
+    printf("num은 %d 입니다\n",num);
 }
