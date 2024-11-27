@@ -26,3 +26,5 @@ void p(int num)
 {
     printf("num은 %d 입니다\n",num);
 }
+
+// 반환형 함수이름 전달값
