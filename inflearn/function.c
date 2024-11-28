@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//선언
 void p(int num);
 int main(void){
 
@@ -27,4 +27,7 @@ void p(int num)
     printf("num은 %d 입니다\n",num);
 }
 
-// 반환형 함수이름 전달값
+// 반환형 함수이름 전달값 선언부와 동일해야함
+/*
+void 함수이름(int num){
+}*/
