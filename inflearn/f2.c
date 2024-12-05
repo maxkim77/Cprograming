@@ -17,3 +17,12 @@ int main(void){
     }
     return 0;
 }
+
+int getRandomNumber(int Level){
+
+}
+
+void showQuestion(int level, int num1, int num2){
+
+    
+}
