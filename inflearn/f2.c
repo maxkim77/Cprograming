@@ -23,6 +23,9 @@ int getRandomNumber(int Level){
 }
 
 void showQuestion(int level, int num1, int num2){
-
+  printf("\n\n\n### %d번째 비밀번호 ####\n", level);
+  printf("\n\t%d*%d?\n",num1,mum2);
+  printf("#######\n");
+  printf("\n비밀번호를 입력하세요 (종료:-1) >>");
 
 }
