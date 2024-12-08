@@ -14,6 +14,12 @@ int main(void){
         int num1 = getRandomNumber(i);
         int num2 = getRandomNumber(i);
         showQuestion(i, num1, num2);
+        int answer = -1;
+        scanf("5d", &answer);
+        if(answer == -1){
+            printf("프로그램을 종료합니다.");
+            break;
+        }
     }
     return 0;
 }
