@@ -21,5 +21,10 @@ int main(void){
         printf("지하철 %d호차에는 %d명이 타고 있습니다.\n", i + 1, subway_array[i]);
     }
 
+    int arr[10];
+    for(int i =0; i<10;i++){
+        printf("%d\n", arr[i]);
+    }
+
     return 0;
 }
