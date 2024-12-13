@@ -26,5 +26,9 @@ int main(void){
         printf("%d\n", arr[i]);
     }
 
+    // 배열의 크기는 항상상수로 선언
+    int size = 10;
+    int arr[10];
+
     return 0;
 }
