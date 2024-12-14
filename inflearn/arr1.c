@@ -30,5 +30,9 @@ int main(void){
     int size = 10;
     int arr[10];
 
+    int arr1[10] = {1,2};
+    for(int i=0; i<10;i++){
+        printf("%d\n", arr[i]);
+    }
     return 0;
 }
