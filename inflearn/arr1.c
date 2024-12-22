@@ -34,5 +34,8 @@ int main(void){
     for(int i=0; i<10;i++){
         printf("%d\n", arr[i]);
     }
+    
+    char c = 'A';
+    printf("%c\n",c);
     return 0;
 }
