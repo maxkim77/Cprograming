@@ -37,5 +37,8 @@ int main(void){
     
     char c = 'A';
     printf("%c\n",c);
+
+    char str[6] = "coding\0";
+    printf("%s\n", str); 
     return 0;
 }
