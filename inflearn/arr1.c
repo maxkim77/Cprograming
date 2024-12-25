@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(void){
+
+int main(void) {
     // Declare individual subway cars
     int subway_1 = 30;
     int subway_2 = 40;
@@ -11,34 +12,32 @@ int main(void){
     printf("지하철 3호차에는 %d명이 타고 있습니다.\n", subway_3);
 
     // Store the number of passengers in an array
-    int subway_array[3];
-    subway_array[0] = 30;
-    subway_array[1] = 40;
-    subway_array[2] = 50;
+    int subway_array[3] = {30, 40, 50};
 
     // Print the number of passengers for each subway car using the array
-    for(int i = 0; i < 3; i++){
+    for (int i = 0; i < 3; i++) {
         printf("지하철 %d호차에는 %d명이 타고 있습니다.\n", i + 1, subway_array[i]);
     }
 
-    int arr[10];
-    for(int i =0; i<10;i++){
+    // Initializing and printing the 'arr' array with some default values
+    int arr[10] = {0}; // Initializing all elements to 0
+    for (int i = 0; i < 10; i++) {
         printf("%d\n", arr[i]);
     }
 
-    // 배열의 크기는 항상상수로 선언
-    int size = 10;
-    int arr[10];
-
-    int arr1[10] = {1,2};
-    for(int i=0; i<10;i++){
-        printf("%d\n", arr[i]);
+    // Initializing 'arr1' with values
+    int arr1[10] = {1, 2}; // Remaining elements will be 0
+    for (int i = 0; i < 10; i++) {
+        printf("%d\n", arr1[i]);
     }
-    
+
+    // Working with a character variable
     char c = 'A';
-    printf("%c\n",c);
+    printf("%c\n", c);
 
-    char str[6] = "coding\0";
-    printf("%s\n", str); 
+    // Working with a string
+    char str[] = "coding";
+    printf("%s\n", str);
+
     return 0;
 }
