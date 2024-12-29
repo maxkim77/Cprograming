@@ -44,5 +44,8 @@ int main(void) {
         printf("%c\n", c_array[i]);
     }
 
+    printf("%c\n",'a');
+    printf("%d\n",'a');
+
     return 0;
 }
